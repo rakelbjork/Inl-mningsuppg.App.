@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "PhotoWed",
+    "slug": "PhotoWed",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/wed7.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/wed3.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/wed7.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/wed5.png"
+    }
+  }
+}

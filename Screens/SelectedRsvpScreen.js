@@ -7,7 +7,7 @@ const SelectedRsvpScreen = ({ route }) => {
 
     const nav = useNavigation()
 
-    const { rsvp: {title, id, isCompleted } } = route.params
+    const { rsvp: { id } } = route.params
     console.log(route.params)
 
     const handleDelete = () => {
@@ -18,9 +18,6 @@ const SelectedRsvpScreen = ({ route }) => {
 
     return (
         <View style= {styles.container}>
-            <Text>Id: {id}</Text>
-            <Text>title: {title}</Text>
-            <Text>Is Completed: {isCompleted ? "Yes" : "No"}</Text>
             <Pressable style={styles.deleteButton}
                 onPress={handleDelete}
             >
